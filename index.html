@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pythagorean Theorem</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <h1>Teoreem, hüpotenuusi arvutaja</h1>
+
+  <p>a²+b² = c² </p>
+  <p>a = 5   b = 7:</p>
+  <p>5²+7² = 74</p>
+  <p>25 + 49 = 74</p>
+  <p>c=8.602325267042627</p>
+
+  <label for="sideA">A külje pikkus: </label>
+  <input type="number" id="sideA" placeholder="kirjuta lahtrisse A külje pikkus">
+
+  <br>
+
+  <label for="sideB">B külje pikkus: </label>
+  <input type="number" id="sideB" placeholder="kirjuta lahtrisse B külje pikkus">
+
+  <br><br>
+
+  <button onclick="calculatePythagorean()">Arvuta</button>
+
+  <br><br>
+
+  <p id="result">C külje pikkus ehk hüpotenuus: </p>
+
+  <script src="pythagorean.js"></script>
+
+</body>
+</html>
